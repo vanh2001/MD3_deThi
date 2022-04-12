@@ -7,6 +7,10 @@ public class Color {
     public Color() {
     }
 
+    public Color(String name) {
+        this.name = name;
+    }
+
     public Color(int id, String name) {
         this.id = id;
         this.name = name;

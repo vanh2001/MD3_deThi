@@ -1,5 +1,7 @@
 package dao.color;
 
-public interface IColorDAO {
+import dao.IDAO;
+import model.Color;
 
+public interface IColorDAO extends IDAO<Color> {
 }
